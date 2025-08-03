@@ -1,0 +1,151 @@
+:root {
+    --background-color1:#0d1a2d;
+    --background-color2:#0c172982;
+    --background-color3:#07152b;
+    --background-color4:#15273f;
+    --font-color:#7b90b0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: calibri;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background-color1);
+}
+
+.main, .second-container, .third-container, .section1 , .part1, .part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 335px;
+    height: 490px;
+    padding: 25px;
+    padding-top: 30px;
+    background-color: var(--background-color2);
+    border-radius: 20px;
+}
+
+.second-container {
+    width: 285px;
+    height: 435px;
+    background-color: var(--background-color3);
+    border-radius:34px;
+}
+
+.third-container {
+    width: 260px;
+    height: 420px;
+    background-color: var(--background-color4);
+    position: relative;
+    bottom: 1.4rem;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.section1 {
+    width: 220px;
+    height: 220px;
+    background-image: url('image-equilibrium.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.section2 {
+    padding-top: 0.5rem;
+}
+
+
+.sub-part {
+    padding:5px 0px;
+}
+
+.sub-part > h3 {
+    font-size: 1.1rem;
+    color: antiquewhite;
+}
+
+.sub-part > p {
+    font-size: 0.86rem;
+    font-weight: 500;
+}
+
+.icon {
+    background-image: url('icon-ethereum.svg');
+}
+
+.icon, .icon-clock {
+    width: 11px;
+    height: 11px;
+    margin-right:2px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-clock {
+    background-image: url('icon-clock.svg');
+}
+
+.day > h3 {
+    font-size: 0.8rem;
+}
+
+.value {
+    color: aqua;
+    font-size: 0.7rem;
+}
+
+.day, .sub-part > p {
+    color:var(--font-color);
+}
+
+.division {
+    margin: 10px 0px;
+    height: 1px;
+    background-color: rgba(182, 182, 182, 0.142);
+}
+
+.adjust {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Creater {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-image: url('image-avatar.png');
+    background-size: contain;
+    border-radius: 20px;
+    border-width: 0.09rem;
+    border-style: solid;
+    border-color: azure;
+}
+
+.content  {
+    font-size: 0.8rem;
+    color: var(--font-color);
+    font-weight: 500;
+}
+
+.content span {
+    color: antiquewhite;
+}
